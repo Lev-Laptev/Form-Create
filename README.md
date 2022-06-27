@@ -1,5 +1,7 @@
 # form-vue
 
+View: [Click](https://vue-form-create.netlify.app)
+
 ## Table of Contents
 
 - [About](#about)
