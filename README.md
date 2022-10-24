@@ -1,33 +1,44 @@
-# vue-form-create
+<h1 align="center">Vue Form Create</h3>
 
-### View: [Click](https://vue-form-create.netlify.app)
+## 📝Table of Contents
 
-## Table of Contents
+- [Getting Started](#start)
+- [Demo](#demo)
+- [Output Structure](#output-structure)
 
-- [About](#about)
-- [Usage](#usage)
-  
-## About <a name = "about"></a>
+## 🏁 Getting Started <a name = "start"></a>
+
+- Clone or download the repo
+- `npm install`
+- `npm run serve`
+- `npm run build`
+
+## Demo <a name = "demo"></a>
+
+View: [Click](https://vue-form-create.netlify.app)
 
 ![app img](http://test-developer.ru/preview/form-create.jpg).
 
-## Usage <a name = "usage"></a>
+## 🗂 Output Structure <a name = "output-structure"></a>
 
-1) a simple form in vue 3
-2) adding skills via ","
-2) removing skills by double click
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
+```shell
+📦vue-form-create
+ ┣ 📂public
+ ┃ ┣ 📜favicon.ico
+ ┃ ┗ 📜index.html
+ ┣ 📂src
+ ┃ ┣ 📂assets
+ ┃ ┃ ┗ 📂css
+ ┃ ┃ ┃ ┗ 📜global.css
+ ┃ ┣ 📂components
+ ┃ ┃ ┗ 📜SingupForm.vue
+ ┃ ┣ 📜App.vue
+ ┃ ┗ 📜main.js
+ ┣ 📜.browserslistrc
+ ┣ 📜.gitignore
+ ┣ 📜babel.config.js
+ ┣ 📜package.json
+ ┗ 📜README.md
+ ```
+ 
+ [(Back to top)](#table-of-contents)
